@@ -1,0 +1,4 @@
+resolver: lts-15.2
+packages: [.]
+extra-deps: ["bindings-libusb-1.4.5.0@sha256:a91daad1448350f345206c800aea30650bf090c70a82a740d4b4e1f202bd56f4,1728"]
+nix: {"packages": ["pkgconfig", "libusb1"]}
